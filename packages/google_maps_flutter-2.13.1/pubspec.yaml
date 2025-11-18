@@ -1,0 +1,53 @@
+name: google_maps_flutter
+description: A Flutter plugin for integrating Google Maps in iOS and Android applications.
+repository: https://github.com/flutter/packages/tree/main/packages/google_maps_flutter/google_maps_flutter
+issue_tracker: https://github.com/flutter/flutter/issues?q=is%3Aissue+is%3Aopen+label%3A%22p%3A+maps%22
+version: 2.13.1
+publish_to: 'none'
+environment:
+  sdk: ^3.7.0
+  flutter: ">=3.29.0"
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        default_package: google_maps_flutter_android
+      ios:
+        default_package: google_maps_flutter_ios
+      web:
+        default_package: google_maps_flutter_web
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # google_maps_flutter_android: ^2.16.1
+  # google_maps_flutter_ios: ^2.15.4
+  google_maps_flutter_ios:
+    path: "/Users/madhan/Projects/PubDev Dependencies/google_maps_flutter_ios-2.15.4"  
+    
+  # google_maps_flutter_platform_interface: ^2.14.0
+  # google_maps_flutter_web: ^0.5.14
+  google_maps_flutter_android:
+    path: "/Users/madhan/Projects/PubDev Dependencies/google_maps_flutter_android-2.18.2"
+
+  google_maps_flutter_platform_interface:
+    path: "/Users/madhan/Projects/PubDev Dependencies/google_maps_flutter_platform_interface-2.14.0"
+  # google_maps_flutter_ios:
+  #   path: "/Users/madhan/Projects/PubDev Dependencies/google_maps_flutter_ios-2.15.4"  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  leak_tracker_flutter_testing: any
+  plugin_platform_interface: ^2.1.7
+  stream_transform: ^2.0.0
+
+topics:
+  - google-maps
+  - google-maps-flutter
+  - map
+
+# The example deliberately includes limited-use secrets.
+false_secrets:
+  - /example/web/index.html
