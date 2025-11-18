@@ -21,7 +21,7 @@ dependencies:
     sdk: flutter
   # google_maps_flutter_platform_interface: ^2.12.1
   google_maps_flutter_platform_interface:
-    path: "/Users/madhan/Projects/PubDev Dependencies/google_maps_flutter_platform_interface-2.14.0"
+    path: "../google_maps_flutter_platform_interface-2.14.0"
   stream_transform: ^2.0.0
 
 dev_dependencies:
