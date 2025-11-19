@@ -3,15 +3,15 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-85.0.0",
+      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-91.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.9"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/analyzer-7.7.1",
+      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/analyzer-8.4.1",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.9"
     },
     {
       "name": "args",
@@ -33,7 +33,7 @@
     },
     {
       "name": "build",
-      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/build-3.1.0",
+      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/build-4.0.2",
       "packageUri": "lib/",
       "languageVersion": "3.7"
     },
@@ -45,25 +45,13 @@
     },
     {
       "name": "build_daemon",
-      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/build_daemon-4.0.4",
-      "packageUri": "lib/",
-      "languageVersion": "3.6"
-    },
-    {
-      "name": "build_resolvers",
-      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/build_resolvers-3.0.3",
+      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/build_daemon-4.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.7"
     },
     {
       "name": "build_runner",
-      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/build_runner-2.7.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
-      "name": "build_runner_core",
-      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/build_runner_core-9.3.1",
+      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/build_runner-2.10.3",
       "packageUri": "lib/",
       "languageVersion": "3.7"
     },
@@ -117,15 +105,27 @@
     },
     {
       "name": "crypto",
-      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/crypto-3.0.6",
+      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/crypto-3.0.7",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
-      "name": "dart_style",
-      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/dart_style-3.1.1",
+      "name": "cupertino_icons",
+      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.8",
       "packageUri": "lib/",
-      "languageVersion": "3.7"
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "dart_style",
+      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/dart_style-3.1.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.9"
+    },
+    {
+      "name": "espresso",
+      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/espresso-0.4.0+18",
+      "packageUri": "lib/",
+      "languageVersion": "3.9"
     },
     {
       "name": "fake_async",
@@ -152,16 +152,28 @@
       "languageVersion": "3.8"
     },
     {
+      "name": "flutter_driver",
+      "rootUri": "file:///Users/madhan/development/flutter/packages/flutter_driver",
+      "packageUri": "lib/",
+      "languageVersion": "3.8"
+    },
+    {
+      "name": "flutter_plugin_android_lifecycle",
+      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.32",
+      "packageUri": "lib/",
+      "languageVersion": "3.9"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/madhan/development/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.8"
     },
     {
-      "name": "frontend_server_client",
-      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/frontend_server_client-4.0.0",
+      "name": "fuchsia_remote_debug_protocol",
+      "rootUri": "file:///Users/madhan/development/flutter/packages/fuchsia_remote_debug_protocol",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.8"
     },
     {
       "name": "glob",
@@ -171,7 +183,7 @@
     },
     {
       "name": "google_maps_flutter_platform_interface",
-      "rootUri": "../../google_maps_flutter_platform_interface-2.14.0",
+      "rootUri": "file:///Users/madhan/.pub-cache/git/ttflutterpackages-2337b67859d9a1d9eaae72e28cc48863a37283c5/packages/google_maps_flutter_platform_interface-2.14.0",
       "packageUri": "lib/",
       "languageVersion": "3.7"
     },
@@ -192,6 +204,12 @@
       "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/http_parser-4.1.2",
       "packageUri": "lib/",
       "languageVersion": "3.4"
+    },
+    {
+      "name": "integration_test",
+      "rootUri": "file:///Users/madhan/development/flutter/packages/integration_test",
+      "packageUri": "lib/",
+      "languageVersion": "3.8"
     },
     {
       "name": "io",
@@ -254,12 +272,6 @@
       "languageVersion": "3.2"
     },
     {
-      "name": "mockito",
-      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/mockito-5.5.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
       "name": "package_config",
       "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/package_config-2.2.0",
       "packageUri": "lib/",
@@ -272,10 +284,10 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "pigeon",
-      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/pigeon-22.7.4",
+      "name": "platform",
+      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/platform-3.1.6",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.2"
     },
     {
       "name": "plugin_platform_interface",
@@ -288,6 +300,12 @@
       "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/pool-1.5.2",
       "packageUri": "lib/",
       "languageVersion": "3.4"
+    },
+    {
+      "name": "process",
+      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/process-5.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
     },
     {
       "name": "pub_semver",
@@ -320,12 +338,6 @@
       "languageVersion": "3.8"
     },
     {
-      "name": "source_gen",
-      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/source_gen-3.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
       "name": "source_span",
       "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/source_span-1.10.1",
       "packageUri": "lib/",
@@ -356,6 +368,12 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "sync_http",
+      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/sync_http-0.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/term_glyph-1.2.2",
       "packageUri": "lib/",
@@ -366,12 +384,6 @@
       "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/test_api-0.7.6",
       "packageUri": "lib/",
       "languageVersion": "3.5"
-    },
-    {
-      "name": "timing",
-      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/timing-1.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.4"
     },
     {
       "name": "typed_data",
@@ -416,16 +428,22 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "webdriver",
+      "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/webdriver-3.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
       "name": "yaml",
       "rootUri": "file:///Users/madhan/.pub-cache/hosted/pub.dev/yaml-3.1.3",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
-      "name": "google_maps_flutter_ios",
+      "name": "google_maps_flutter_example",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.6"
+      "languageVersion": "3.7"
     }
   ],
   "generator": "pub",

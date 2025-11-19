@@ -222,8 +222,8 @@ packages:
   google_maps_flutter_platform_interface:
     dependency: "direct main"
     description:
-      path: "/Users/madhan/Projects/PubDev Dependencies/google_maps_flutter_platform_interface-2.14.0"
-      relative: false
+      path: "../google_maps_flutter_platform_interface-2.14.0"
+      relative: true
     source: path
     version: "2.14.0"
   graphs:

@@ -23,16 +23,33 @@ dependencies:
     sdk: flutter
   # google_maps_flutter_android: ^2.16.1
   # google_maps_flutter_ios: ^2.15.4
-  google_maps_flutter_ios:
-    path: "../google_maps_flutter_ios-2.15.4"  
+  # google_maps_flutter_ios:
+  #   path: "../google_maps_flutter_ios-2.15.4"  
     
-  # google_maps_flutter_platform_interface: ^2.14.0
-  # google_maps_flutter_web: ^0.5.14
+  # # google_maps_flutter_platform_interface: ^2.14.0
+  # # google_maps_flutter_web: ^0.5.14
+  # google_maps_flutter_android:
+  #   path: "../google_maps_flutter_android-2.18.2"
+
+  # google_maps_flutter_platform_interface:
+  #   path: "../google_maps_flutter_platform_interface-2.14.0"
+  google_maps_flutter_ios:
+    git:
+      url: https://github.com/tonetaggit/ttflutterpackages.git
+      path: packages/google_maps_flutter_ios-2.15.4
+      ref: main
   google_maps_flutter_android:
-    path: "../google_maps_flutter_android-2.18.2"
+    git:
+      url: https://github.com/tonetaggit/ttflutterpackages.git
+      path: packages/google_maps_flutter_android-2.18.2
+      ref: main
 
   google_maps_flutter_platform_interface:
-    path: "../google_maps_flutter_platform_interface-2.14.0"
+    git:
+      url: https://github.com/tonetaggit/ttflutterpackages.git
+      path: packages/google_maps_flutter_platform_interface-2.14.0
+      ref: main
+ 
   # google_maps_flutter_ios:
   #   path: "/Users/madhan/Projects/PubDev Dependencies/google_maps_flutter_ios-2.15.4"  
 
