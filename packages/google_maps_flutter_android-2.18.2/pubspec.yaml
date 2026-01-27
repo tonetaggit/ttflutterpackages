@@ -23,7 +23,10 @@ dependencies:
   flutter_plugin_android_lifecycle: ^2.0.1
   # google_maps_flutter_platform_interface: ^2.11.0
   google_maps_flutter_platform_interface:
-    path: ../google_maps_flutter_platform_interface-2.14.0
+    git:
+      url: https://github.com/tonetaggit/ttflutterpackages.git
+      path: packages/google_maps_flutter_platform_interface-2.14.0
+      ref: master
   stream_transform: ^2.0.0
 
 dev_dependencies:
