@@ -1,0 +1,18 @@
+# Gradle
+.gradle/
+./android/.gradle
+android/.gradle/
+android/local.properties
+
+# Dart/Flutter
+.dart_tool/
+.flutter-plugins-dependencies
+pubspec.lock
+
+# Build outputs
+build/
+
+# IDE
+.idea/
+*.iml
+local.properties
