@@ -24,7 +24,7 @@ dependencies:
     git:
       url: https://github.com/tonetaggit/ttflutterpackages.git
       path: packages/google_maps_flutter_platform_interface-2.14.0
-      ref: master
+      ref: amply
   stream_transform: ^2.0.0
 
 dev_dependencies:
