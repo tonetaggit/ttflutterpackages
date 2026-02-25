@@ -56,8 +56,8 @@
   id<GMUClusterAlgorithm> algorithm =
     [[GMUNonHierarchicalDistanceBasedAlgorithm alloc] initWithClusterDistancePoints:120];
 
-  // Fixed color for all clusters #00AF9E
-  UIColor *fixedColor = [UIColor colorWithRed:0.0 green:0.68 blue:0.62 alpha:1.0];
+  // Fixed color for all clusters #1E1E1E
+  UIColor *fixedColor = [UIColor colorWithRed:30.0/255.0 green:30.0/255.0 blue:30.0/255.0 alpha:1.0];
   id<GMUClusterIconGenerator> iconGenerator = [[MyClusterIconGenerator alloc] initWithColor:fixedColor];
 
   id<GMUClusterRenderer> renderer =

@@ -1,27 +1,13 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="40dp"
-    android:height="40dp"
-    android:viewportWidth="40"
-    android:viewportHeight="40">
+    android:width="38dp"
+    android:height="38dp"
+    android:viewportWidth="38"
+    android:viewportHeight="38">
 
-    <!-- Main circle -->
+    <!-- Cluster background: dark rounded circle #1E1E1E -->
     <path
-        android:fillColor="#00AF9E"
-        android:pathData="M20,6.667
-                          a13.333,13.333 0 1,1 0,26.666
-                          a13.333,13.333 0 1,1 0,-26.666"/>
-
-    <!-- Middle semi-transparent circle -->
-    <path
-        android:fillColor="#8000AF9E"
-        android:pathData="M20,4
-                          a16,16 0 1,1 0,32
-                          a16,16 0 1,1 0,-32"/>
-
-    <!-- Outer semi-transparent circle -->
-    <path
-        android:fillColor="#8000AF9E"
-        android:pathData="M20,0
-                          a20,20 0 1,1 0,40
-                          a20,20 0 1,1 0,-40"/>
+        android:fillColor="#1E1E1E"
+        android:pathData="M1.5,19
+                          a17.5,17.5 0 1,1 35,0
+                          a17.5,17.5 0 1,1 -35,0"/>
 </vector>

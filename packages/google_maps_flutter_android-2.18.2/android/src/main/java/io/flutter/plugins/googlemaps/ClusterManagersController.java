@@ -665,7 +665,7 @@ class ClusterManagersController
 
       // Draw text
       Paint textPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-      textPaint.setColor(Color.WHITE);
+      textPaint.setColor(Color.parseColor("#FFFAFA"));
       
       String countText = formatClusterCount(count);
       // textPaint.setTextSize(countText.length() > 3 ? 28f : 32f);
@@ -704,20 +704,13 @@ class ClusterManagersController
       
       // Draw circle background
       Paint circlePaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-      circlePaint.setColor(Color.parseColor("#4285F4")); // Google Blue
+      circlePaint.setColor(Color.parseColor("#1E1E1E"));
       circlePaint.setStyle(Paint.Style.FILL);
       canvas.drawCircle(size / 2f, size / 2f, size / 2f, circlePaint);
-      
-      // Draw white border
-      Paint borderPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-      borderPaint.setColor(Color.WHITE);
-      borderPaint.setStyle(Paint.Style.STROKE);
-      borderPaint.setStrokeWidth(4f);
-      canvas.drawCircle(size / 2f, size / 2f, size / 2f - 2f, borderPaint);
-      
+
       // Draw text
       Paint textPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-      textPaint.setColor(Color.WHITE);
+      textPaint.setColor(Color.parseColor("#FFFAFA"));
       String countText = formatClusterCount(count);
       textPaint.setTextSize(countText.length() > 3 ? 28f : 32f);
       textPaint.setTextAlign(Paint.Align.CENTER);

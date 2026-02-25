@@ -17,37 +17,27 @@
 
 // Your existing icon drawing method
 - (UIImage *)iconForSize:(NSUInteger)size {
-    CGFloat dimension = 40.0; // Reduced from 60 to 40
+    CGFloat dimension = 38.0;
     CGRect rect = CGRectMake(0, 0, dimension, dimension);
 
     UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0.0);
     CGContextRef ctx = UIGraphicsGetCurrentContext();
 
-    // Outer circle (low opacity)
-    CGContextSetFillColorWithColor(ctx, [self.color colorWithAlphaComponent:0.5].CGColor);
-    UIBezierPath *outer = [UIBezierPath bezierPathWithRoundedRect:rect cornerRadius:dimension / 2];
-    [outer fill];
+    // Single dark circle background #1E1E1E
+    UIColor *bgColor = [UIColor colorWithRed:30.0/255.0 green:30.0/255.0 blue:30.0/255.0 alpha:1.0];
+    CGContextSetFillColorWithColor(ctx, bgColor.CGColor);
+    UIBezierPath *circle = [UIBezierPath bezierPathWithRoundedRect:rect cornerRadius:dimension / 2];
+    [circle fill];
 
-    // Middle circle
-    CGRect middleRect = CGRectInset(rect, 3, 3); // adjusted proportionally
-    UIBezierPath *middle = [UIBezierPath bezierPathWithRoundedRect:middleRect cornerRadius:(dimension - 6) / 2];
-    [[self.color colorWithAlphaComponent:0.5] setFill];
-    [middle fill];
-
-    // Inner circle
-    CGRect innerRect = CGRectInset(rect, 6, 6); // adjusted proportionally
-    UIBezierPath *inner = [UIBezierPath bezierPathWithRoundedRect:innerRect cornerRadius:(dimension - 12) / 2];
-    [self.color setFill];
-    [inner fill];
-
-    // Text (cluster count)
+    // Text (cluster count) in #FFFAFA
     NSString *text = [NSString stringWithFormat:@"%lu", (unsigned long)size];
     NSMutableParagraphStyle *style = [[NSMutableParagraphStyle alloc] init];
     style.alignment = NSTextAlignmentCenter;
 
+    UIColor *textColor = [UIColor colorWithRed:255.0/255.0 green:250.0/255.0 blue:250.0/255.0 alpha:1.0];
     NSDictionary *attrs = @{
-        NSFontAttributeName: [UIFont boldSystemFontOfSize:12], // reduced from 20
-        NSForegroundColorAttributeName: [UIColor whiteColor],
+        NSFontAttributeName: [UIFont boldSystemFontOfSize:12],
+        NSForegroundColorAttributeName: textColor,
         NSParagraphStyleAttributeName: style
     };
 
